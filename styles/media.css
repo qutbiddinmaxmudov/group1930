@@ -16,3 +16,8 @@
     margin-bottom: 10px;
   }
 }
+@media(max-width:576px) {
+  .about__slogan {
+    top: -30px;
+  }
+}
