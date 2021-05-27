@@ -253,7 +253,76 @@ body {
   transition: 0.5s color, 0.5s background;
 }
 
-.about__button:hover{
+.about__button:hover {
   background: var(--primary-background);
   color: var(--primary-text-color);
+}
+
+.capabilities {
+  margin-top: 75px;
+}
+
+.capabities__title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: capitalize;
+  color: var(--primary-title-color);
+  margin-bottom: 30px;
+}
+
+.accordion {
+  box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordion__button::after {
+  content: "";
+  width: 100%;
+  background: #DDDDDD;
+  border-radius: 8px;
+  height: 1px;
+  margin-top: 15px;
+  display: block;
+  opacity: 0;
+  transition: 0.5s opacity;
+}
+
+.accordion__header {
+  margin-bottom: 0;
+}
+
+.accordion__button {
+  outline: none;
+  border: none;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  text-align: left;
+  background: var(--secondary-background);
+}
+
+.accordion__header-content {
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  color: var(--secondary-text-color);
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.accordion__image {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.accordion__icon {
+  margin-left: auto;
+  font-size: 25px;
 }
