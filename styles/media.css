@@ -7,6 +7,10 @@
   .logo::before {
     content: url(../images/logo-dark.png);
   }
+  .works__tab:hover,
+  .works__tab.active{
+    color: var(--secondary-title-color-alt);
+  }
 }
 
 @media(max-width:992px) {
