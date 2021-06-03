@@ -412,6 +412,7 @@ body {
 }
 
 .works__image {
+  max-height: 320px;
   width: 100%;
   height: 100%;
   object-fit: cover;
